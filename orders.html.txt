@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Orders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">ShopPortfolio</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="orders.html">Orders</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Your Orders</h1>
+    <div id="orders-list"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

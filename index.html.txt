@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">ShopPortfolio</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="orders.html">Orders</a>
+    </nav>
+    <div class="cart-icon">
+      <a href="cart.html">🛒 <span id="cart-count">0</span></a>
+    </div>
+  </header>
+  <main>
+    <h1>Featured Products</h1>
+    <div class="products" id="products-list">
+      <!-- Products will be loaded by JS -->
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
